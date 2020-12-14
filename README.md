@@ -1,7 +1,6 @@
-# JAVASCRIPT_WEB_REACTIVE
+
 <!-- TOC -->
 
-- [JAVASCRIPT_WEB_REACTIVE](#javascript_web_reactive)
 - [Le debogage](#le-debogage)
     - [Acces a la console de degogage dans un navigagueur](#acces-a-la-console-de-degogage-dans-un-navigagueur)
     - [Degogage mobile](#degogage-mobile)
@@ -27,6 +26,7 @@
 - [Pour aller plus loin](#pour-aller-plus-loin)
 
 <!-- /TOC -->
+
 # Le debogage
 
 Le debogage peux etre necessaires dans les cas suivant:
@@ -38,7 +38,7 @@ Le debogage peux etre necessaires dans les cas suivant:
 
 Connectez-vous a votre navigagueur (Chrome, firefox, edge) et taper sur la touche F12, ou bien cliquer sur les 3 petits points et cliquer sur Plus d'outil > outils de developpement.
 
-![DEGOGUEUR](resources\degogue.bmp)
+![DEGOGUEUR](degogue.bmp)
 
 ## Degogage mobile
 
@@ -161,7 +161,7 @@ console.info("un log d'information");
 console.warn("un log d'alerte");
 console.log("une log d'erreur")
 ```
-![consoleloglevel](resources\consolelog.bmp)
+![consoleloglevel](consolelog.bmp)
 
 ```js
 console.group("Commencer le 1er groupe avec console.group de niveau 1");
@@ -176,7 +176,7 @@ console.log("Nous retournons au niveau -1 , cad 1");
 console.groupEnd();
 console.log("Nous sommes hors du groupe");
 ```
-![consoleloggroup](resources\group.bmp)
+![consoleloggroup](group.bmp)
 
 ### Compteur de temps
 
@@ -193,7 +193,7 @@ setTimeout(function(){
     console.timeEnd("asynchrone");
 }, 2000);
 ```
-![consolelogduree](resources\time.bmp)
+![consolelogduree](time.bmp)
 
 Exemple de compteur
 
@@ -202,7 +202,7 @@ nbBoucle = 7;
 for(var foo = 0; foo < nbBoucle;foo++)
 console.count("Combien de fois avons-nous parcouru la boucle ? : ");
 ```
-![consolelogcompteur](resources\time_count.bmp)
+![consolelogcompteur](time_count.bmp)
 
 Exemple de trace
 
@@ -213,7 +213,7 @@ console.trace("Nous generons une trace");
 ### Les tableaux
 
 Exemple:
-![consolelogtable](resources\tableau.bmp)
+![consolelogtable](tableau.bmp)
 
 ### Debug
 
@@ -223,7 +223,7 @@ Dans la console, lors d'un point d'arret, nous pouvons appeler des fonctions, co
 
 L'onglet network permet d'analyser les echanges entre le navigateur et les differents serveurs.
 
-![consolelognetwork](resources\network.bmp)
+![consolelognetwork](network.bmp)
 
 ## Usage avance du network
 
